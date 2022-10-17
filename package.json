@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+     // "start": "react-scripts start",
+    "start": "vite",
+    // "build": "react-scripts build",
+    "build": "tsc && vite build",
+    "serve": "vite preview", // Añadimos este comando si deseamos tener una vista previa del bundle final
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
